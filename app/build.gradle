@@ -1,0 +1,41 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "24.0.0"
+
+    defaultConfig {
+        applicationId "in.ganitlabs.rnator"
+        minSdkVersion 21
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile 'junit:junit:4.12'
+    releaseCompile 'com.android.support:appcompat-v7:24.2.0'
+    releaseCompile 'com.android.support:design:24.0.0'
+    releaseCompile 'com.android.support:support-v4:24.2.0'
+    releaseCompile 'com.android.volley:volley:1.0.0'
+    releaseCompile 'com.android.support:cardview-v7:24.0.0'
+    releaseCompile 'com.android.support:recyclerview-v7:24.2.0'
+    releaseCompile 'org.jsoup:jsoup:1.9.2'
+    releaseCompile 'com.itextpdf:itextg:5.5.9'
+    debugCompile 'com.android.support:appcompat-v7:24.2.0'
+    debugCompile 'com.android.support:design:24.0.0'
+    debugCompile 'com.android.support:support-v4:24.2.0'
+    debugCompile 'com.android.volley:volley:1.0.0'
+    debugCompile 'com.android.support:cardview-v7:24.0.0'
+    debugCompile 'com.android.support:recyclerview-v7:24.2.0'
+    debugCompile 'org.jsoup:jsoup:1.9.2'
+    debugCompile 'com.itextpdf:itextg:5.5.9'
+}

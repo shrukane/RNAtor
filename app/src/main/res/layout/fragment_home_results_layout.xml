@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent" android:layout_width="match_parent">
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/tvRes"
+        android:layout_margin="4dp"/>
+<GridLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:columnCount="5"
+    android:rowCount="8"
+    android:layout_below="@+id/tvRes">
+
+    <RelativeLayout android:background="@drawable/table_border" android:layout_gravity="fill">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:text="Series" />
+    </RelativeLayout>
+
+    <RelativeLayout android:background="@drawable/table_border" android:layout_gravity="fill">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:text="System" />
+    </RelativeLayout>
+
+    <RelativeLayout android:background="@drawable/table_border" android:layout_gravity="fill">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:text="Kit" />
+    </RelativeLayout>
+
+    <RelativeLayout android:background="@drawable/table_border" android:layout_gravity="fill">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:text="Samples/\nFlowcell" />
+    </RelativeLayout>
+
+    <RelativeLayout android:background="@drawable/table_border" android:layout_gravity="fill">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:text="Samples/\nLane" />
+    </RelativeLayout>
+
+    <RelativeLayout android:background="@drawable/table_border" android:layout_gravity="fill"
+        android:layout_rowSpan="2"
+        android:layout_rowWeight="2">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:text="MiniSeq\nSystem" />
+    </RelativeLayout>
+
+    <RelativeLayout android:background="@drawable/table_border" android:layout_gravity="fill"
+        android:layout_rowSpan="2"
+        android:layout_rowWeight="2">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:text="MiniSeq\nSystem" />
+    </RelativeLayout>
+
+    <RelativeLayout android:background="@drawable/table_border" android:layout_gravity="fill">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:text="kit v2" />
+    </RelativeLayout>
+
+    <RelativeLayout android:background="@drawable/table_border" android:layout_gravity="fill">
+
+        <TextView
+
+            android:id="@+id/pH0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="3dp" />
+    </RelativeLayout>
+
+    <RelativeLayout android:background="@drawable/table_border" android:layout_gravity="fill">
+
+        <TextView
+
+            android:id="@+id/pH1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="3dp" />
+    </RelativeLayout>
+
+    <RelativeLayout android:background="@drawable/table_border" android:layout_gravity="fill">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:text="kit v3" />
+    </RelativeLayout>
+
+    <RelativeLayout android:background="@drawable/table_border" android:layout_gravity="fill">
+
+        <TextView
+
+            android:id="@+id/pH2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="3dp" />
+    </RelativeLayout>
+
+    <RelativeLayout android:background="@drawable/table_border" android:layout_gravity="fill">
+
+        <TextView
+
+            android:id="@+id/pH3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="3dp" />
+    </RelativeLayout>
+
+    <RelativeLayout android:background="@drawable/table_border" android:layout_gravity="fill">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:text="NextSeq\nSeries" />
+    </RelativeLayout>
+
+    <RelativeLayout android:background="@drawable/table_border" android:layout_gravity="fill">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:text="NextSeq\n500 System" />
+    </RelativeLayout>
+
+    <RelativeLayout android:background="@drawable/table_border" android:layout_gravity="fill">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="3dp" />
+    </RelativeLayout>
+
+    <RelativeLayout android:background="@drawable/table_border" android:layout_gravity="fill">
+
+        <TextView
+
+            android:id="@+id/pH4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="3dp" />
+    </RelativeLayout>
+
+    <RelativeLayout android:background="@drawable/table_border" android:layout_gravity="fill">
+
+        <TextView
+
+            android:id="@+id/pH5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="3dp" />
+    </RelativeLayout>
+
+    <RelativeLayout android:background="@drawable/table_border" android:layout_gravity="fill"
+        android:layout_rowSpan="4"
+        android:layout_rowWeight="4">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:text="HiSeq\nSeries"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout android:background="@drawable/table_border" android:layout_gravity="fill">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:text="HiSeq 3000" />
+    </RelativeLayout>
+
+    <RelativeLayout android:background="@drawable/table_border" android:layout_gravity="fill">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="3dp" />
+    </RelativeLayout>
+
+    <RelativeLayout android:background="@drawable/table_border" android:layout_gravity="fill">
+
+        <TextView
+
+            android:id="@+id/pH6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="3dp" />
+    </RelativeLayout>
+
+    <RelativeLayout android:background="@drawable/table_border" android:layout_gravity="fill">
+
+        <TextView
+
+            android:id="@+id/pH7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="3dp" />
+    </RelativeLayout>
+
+    <RelativeLayout android:background="@drawable/table_border" android:layout_gravity="fill">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:text="HiSeq 4000\nSystem" />
+    </RelativeLayout>
+
+    <RelativeLayout android:background="@drawable/table_border" android:layout_gravity="fill">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="3dp" />
+    </RelativeLayout>
+
+    <RelativeLayout android:background="@drawable/table_border" android:layout_gravity="fill">
+
+        <TextView
+
+            android:id="@+id/pH8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="3dp" />
+    </RelativeLayout>
+
+    <RelativeLayout android:background="@drawable/table_border" android:layout_gravity="fill">
+
+        <TextView
+
+            android:id="@+id/pH9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="3dp" />
+    </RelativeLayout>
+
+    <RelativeLayout android:background="@drawable/table_border" android:layout_gravity="fill"
+        android:layout_rowSpan="2"
+        android:layout_rowWeight="2">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:text="HiSeq 2500\nSystem" />
+    </RelativeLayout>
+
+    <RelativeLayout android:background="@drawable/table_border" android:layout_gravity="fill">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:text="HISEQ\nSBS V4" />
+    </RelativeLayout>
+
+    <RelativeLayout android:background="@drawable/table_border" android:layout_gravity="fill">
+
+        <TextView
+
+            android:id="@+id/pH10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="3dp" />
+    </RelativeLayout>
+
+    <RelativeLayout android:background="@drawable/table_border" android:layout_gravity="fill">
+
+        <TextView
+
+            android:id="@+id/pH11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="3dp" />
+    </RelativeLayout>
+
+    <RelativeLayout android:background="@drawable/table_border" android:layout_gravity="fill">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:text="TRUSEQ\nSBS V3" />
+    </RelativeLayout>
+
+    <RelativeLayout android:background="@drawable/table_border" android:layout_gravity="fill">
+
+        <TextView
+
+            android:id="@+id/pH12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="3dp" />
+    </RelativeLayout>
+
+    <RelativeLayout android:background="@drawable/table_border" android:layout_gravity="fill">
+
+        <TextView
+
+            android:id="@+id/pH13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="3dp" />
+    </RelativeLayout>
+</GridLayout>
+
+    <Button android:layout_width="match_parent" android:layout_alignParentBottom="true" android:layout_height="wrap_content" android:id="@+id/btnPdf"
+        android:layout_margin="10dp"
+        android:text="Export to Pdf"
+        android:background="#0dbf66" />
+</RelativeLayout>
