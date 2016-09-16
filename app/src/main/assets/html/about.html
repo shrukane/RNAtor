@@ -3,6 +3,30 @@
     <meta data-version="1" />
 </head>
 <body>
-<h3 align="center">About Us</h3>
+<center>
+<font size="12"> <b>RNAtor</b> </font>
+<h2>User guide</h2>
+<h3>Version 1.1</h3>
+<img src ="rnator_72dp.png" width="70" height = "70">
+</center>
+<hr>
+<h1><font color="maroon">Introduction-</font></h1>
+<p>The RNAtor allows the user to optimise an RNA Seq experiment design, based on user defined parameters like the no. of replicates available, fold-change at which the user is expected to detect differentially expressed genes and the size of the transcriptome used. Based on simulation experiments RNAtor calculates the depth required for sequencing of the particular transcriptome. RNAtor also provides the no. of samples that can be loaded per lane for some of the sequencers. This allows the user to plan an RNA-Sequencing experiment based on the budget while also recovering the optimum result.</p>
+<font size="3" color="maroon">What is the RNAtor app</font>
+<p> RNAtor was developed based on simulation RNA Sequencing experiments performed at different coverages, replicates and fold-change to depict the optimum coverage, required at a particular combination of fold-change and replicate, to detect maximum no of differentially expressed genes.These simulation results were further validated by real RNA Seq data and found to be holding true across a range of transcriptome sizes.  RNAtor generates these parameters for the user and also gives a brief overview of the no. of samples of that particular experiment one can run using different sequencers.</p>
+<h1><font color="maroon">Installations-</font></h1>
+<ul>
+<li>Download RNAtor from google play</li>
+<li>Launch the application by clicking on the icon</li>
+<li>Start your experiment design !</li>
+</ul>
+<h1><font color="maroon">Overview-</font></h1>
+<center> <img src ="frontscreen_userguide.png" width="1000" height = "600"> </center>
+<h1><font color="maroon">Functions-</font></h1>
+<font size="3" color="maroon"><ol><li>Transcriptome size-</li></font>
+<p>The transcriptome size can be selected either from the database of oraganisms provided or by user defined custom input. The database of organisms consists of all the Eukaryotic genome sizes as downloaded from NCBI genome browse. RNAtor calculated the transcriptome size as 7% of the genome size by default. If the user wishes to include their own assumption for the transcriptome size, this can be done manually by selecting custom. Note that the transcriptome size should always be in mb.</p>
+<center> <img src ="custom_userguide.jpg" width="300" height = "200"> </center>
+<font size="3" color="maroon"><li>Fold Change-</li></font>
+
 </body>
 </html>
